@@ -8,9 +8,6 @@ Moreover, [Web MIDI API](https://developer.mozilla.org/en-US/docs/Web/API/Web_MI
 
 ![SubJuicy synthesizer interface](/assets/SubJuicySynth.png)
 
-## Project setup
+## Synth Controls
 
-Once you've cloned the repository, open up the terminal and move to project directory. Then, install all the dependencies needed by typing:
-`
-npm install
-`
+## Signal Flow
