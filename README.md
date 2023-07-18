@@ -5,3 +5,5 @@ SubJuicy is a monophonic synthesizer based on subtractive synthesis featuring fo
 - [Tone.js](https://tonejs.github.io/)
 
 Moreover, [Web MIDI API](https://developer.mozilla.org/en-US/docs/Web/API/Web_MIDI_API) is employed to manage MIDI devices connection.
+
+![SubJuicy synthesizer interface](/SubJuicySynth/)
