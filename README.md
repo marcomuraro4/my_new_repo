@@ -16,4 +16,6 @@ The app provides different types of controls enabling the user to find the desir
 
 ![Vue App Architecture](/assets/SubJuicySynth_AppArchitecture.png)
 
+The diagram above shows how the architecture of the application is organized in vue components and parameters are passed from leave components to SynthDevice where the overall synth state is updated.
+
 ## Signal Flow
