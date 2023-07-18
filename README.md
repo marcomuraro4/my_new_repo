@@ -7,3 +7,10 @@ SubJuicy is a monophonic synthesizer based on subtractive synthesis featuring fo
 Moreover, [Web MIDI API](https://developer.mozilla.org/en-US/docs/Web/API/Web_MIDI_API) is employed to manage MIDI devices connection.
 
 ![SubJuicy synthesizer interface](/assets/SubJuicySynth.png)
+
+## Project setup
+
+Once you've cloned the repository, open up the terminal and move to project directory. Then, install all the dependencies needed by typing:
+`
+npm install
+`
