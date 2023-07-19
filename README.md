@@ -83,7 +83,7 @@ LFO block is implemented as a Tone.js Tremolo node. The user can control the par
 - **Depth**: controls the *depth* of the effect
 
 <p align="center">
-    <img width="200" height="auto" alt="LFO Controls" src="./assets/TremoloControlsGUI.png">
+    <img width="250" height="auto" alt="LFO Controls" src="./assets/TremoloControlsGUI.png">
 </p>
 
 **Master Controls** </br>
@@ -93,7 +93,7 @@ Master section enables the user to set:
 - **Pan**: pan parameter controls is implemented by means of Tone.js Panner node which is an *equal power Left/Right channel*
 
 <p align="center">
-    <img width="200" height="auto" alt="Master Controls" src="./assets/MasterControlsGUI.png">
+    <img width="250" height="auto" alt="Master Controls" src="./assets/MasterControlsGUI.png">
 </p>
 
 ## App Architecture and State Update
