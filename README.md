@@ -73,7 +73,7 @@ Amplitude Envelope is implemented as an ADSR envelope.
 - **Release**
 
 <p align="center">
-    <img width="400" height="auto" alt="Chorus Controls" src="./assets/AmpEnvControlsGUI.png">
+    <img width="400" height="auto" alt="ADSR Amplitude Envelope Controls" src="./assets/AmpEnvControlsGUI.png">
 </p>
 
 - **LFO Controls**
