@@ -40,25 +40,25 @@ The user can navigate through filters controls by clicking on the red button ind
 Effects controls are shown by clicking on the corresponding button which is located at the top-right of SubJuicy interface. Indeed, within the navigation bar of the synth GUI the user can find two buttons, responsible for Filters and Effects controls rendering. Available effects are listed in the following:
 
 - **Chorus** audio node implements a stereo chorus effect consisting of a left and right delay with an LFO that is applied to the delayTime of each channel.
-  - *Depth*: sets the *depth* of chorus effect
-  - *Frequency*: sets the *frequency* of the LFO modulating the delay time
-  - *Feedback*: controls the *amount of feedback* from the output back into the input of the effect node
-  - *Wet*: manages *dry/wet balance* at the output of the audio node
+  - **Depth**: sets the *depth* of chorus effect
+  - **Frequency**: sets the *frequency* of the LFO modulating the delay time
+  - **Feedback**: controls the *amount of feedback* from the output back into the input of the effect node
+  - **Wet**: manages *dry/wet balance* at the output of the audio node
  
 - **Phaser** node works by changing the phase of different frequency components of an incoming signal.
-  - *Base Frequency*: controls the *cut-off frequency* of the filter
-  - *Frequency*: sets the *frequency* of the effect
-  - *Wet*: for setting *dry/wet balance* at the output of the audio node
+  - **Base Frequency**: controls the *cut-off frequency* of the filter
+  - **Frequency**: sets the *frequency* of the effect
+  - **Wet**: for setting *dry/wet balance* at the output of the audio node
  
 - **Reverb** audio node implements a simple convolution created with decaying noise. Controllable parameters are:
-  - *Decay*: sets the *reverb duration*
-  - *Pre-Delay*: controls the *amount of time the reverb is fully ramped in*
-  - *Wet*: manages *dry/wet balance*
+  - **Decay**: sets the *reverb duration*
+  - **Pre-Delay**: controls the *amount of time the reverb is fully ramped in*
+  - **Wet**: manages *dry/wet balance*
 
 - **Ping-Pong Delay** node implements a feedback delay effect here the echo is heard first in one channel and next in the opposite channel
-  - *Delay Time*: controls *delay time*
-  - *Feedback*: sets *feedback* of the delay
-  - *Wet*: sets *dry/wet balance* at the output of the audio node
+  - **Delay Time**: controls *delay time*
+  - **Feedback**: sets *feedback* of the delay
+  - **Wet**: sets *dry/wet balance* at the output of the audio node
  
 <p align="center">
     <img width="400" height="auto" alt="Chorus Controls" src="./assets/ChorusControlsGUI.png">
