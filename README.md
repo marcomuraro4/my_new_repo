@@ -27,7 +27,7 @@ The user can control three different oscillators and a noise source. Available p
 Four types of filters can be controlled from the graphical user interface. Each filter is implemented as a Tone.js BiquadFilter node. Available filters are: **Low-Pass**, **High-Pass**, **Peaking**, and **Notch filter**. Controllable parameters are listed below:
 - **Frequency**: sets the *cut-off frequency* of the filter
 - **Q-Factor**: for setting *quality factor*
-- **Detune**: sets the detune parameter
+- **Detune**: sets the *detune* parameter
 - **Gain**: available only for *Peaking Filter*
 
 <p align="center">
@@ -35,9 +35,9 @@ Four types of filters can be controlled from the graphical user interface. Each 
 </p>
 
 The user can navigate through filters controls by clicking on the red button indicating the type of the filter that is currently displayed within the user interface. Every time the button is clicked controls of the following filters are made visible and its type denomination is shown as well. Filters are rendered according to the order indicated above.
-  
 
-- **Effects Controls**
+- **Effects Controls** </br>
+Effects controls are shown by clicking on the corresponding button located which is located at the top-right of SubJuicy interface. Indeed, within the navigation bar of the synth interface the user can find two buttons, responsible for Filters and Effects controls rendering.
 
 - **Amplitude Envelope Controls**
 
