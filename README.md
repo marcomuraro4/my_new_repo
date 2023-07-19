@@ -25,10 +25,10 @@ SubJuicy synthesizer provides the user with different controls sections. In the 
 
 **Filters Controls** 
     Four types of filters can be controlled from the graphical user interface. Each filter is implemented as a Tone.js BiquadFilter node. Available filters are: Low-Pass, High-Pass, Peaking, and Notch filter. Controllable parameters are listed below:
-    - **Frequency**
-    - **Q-Factor**
-    - **Detune**
-    - **Gain**: only for *Peaking Filter*
+    * **Frequency**
+    * **Q-Factor**
+    * **Detune**
+    * **Gain**: only for *Peaking Filter*
   
 
 - **Effects Controls**
