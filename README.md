@@ -40,10 +40,10 @@ The user can navigate through filters controls by clicking on the red button ind
 Effects controls are shown by clicking on the corresponding button which is located at the top-right of SubJuicy interface. Indeed, within the navigation bar of the synth GUI the user can find two buttons, responsible for Filters and Effects controls rendering. Available effects are listed in the following:
 
 - **Chorus**
-  - *Depth*
-  - *Frequency*
-  - *Feedback*
-  - *Wet*
+  - *Depth*: sets the *depth* of chorus effect
+  - *Frequency*: sets the frequency of the LFO modulating the delay time
+  - *Feedback*: controls the amount of feedback from the output back into the input of the effect node
+  - *Wet*: manages dry/wet balance at the output of the audio node
  
 - **Phaser**
   - *Base Frequency*
