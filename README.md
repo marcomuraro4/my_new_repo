@@ -16,7 +16,7 @@ The app provides different types of controls enabling the user to find the desir
 
 ![Vue App Architecture](/assets/SubJuicySynth_AppArchitecture.png)
 
-The diagram above shows how the architecture of the application is organized in vue components and parameters are passed from leave components to SynthDevice where the overall synth state is updated. An external Vue component (vue-three-round-slider module, imported and used in the app as RoundSlider component) was employed to integrate circular slider within the graphical user interface for a more pleasant and comfortable user interaction with the software.
+The diagram above shows how the architecture of the application is organized in vue components and parameters are passed from leave components to SynthDevice where the overall synth state is updated. An external Vue component (**vue-three-round-slider** module, imported and used in the app as **RoundSlider** component) was employed to integrate *circular slider* within the graphical user interface for a more pleasant and comfortable user interaction with the software.
 
 ## Signal Flow
 
