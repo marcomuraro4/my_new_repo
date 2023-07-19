@@ -31,7 +31,7 @@ Four types of filters can be controlled from the graphical user interface. Each 
 - **Gain**: available only for *Peaking Filter*
 
 <p align="center">
-    <img width="800" height="auto" alt="Peaking Filter Controls" src="./assets/PeakingFilterControlsGUI.png">
+    <img width="400" height="auto" alt="Peaking Filter Controls" src="./assets/PeakingFilterControlsGUI.png">
 </p>
 
 The user can navigate through filters controls by clicking on the red button indicating the type of the filter that is currently displayed within the user interface. Every time the button is clicked controls of the following filters are made visible and its type denomination is shown as well. Filters are rendered according to the order indicated above.
@@ -101,7 +101,7 @@ The app provides different types of controls enabling the user to find the desir
 **Vue watchers** are employed in order to automatically *update component data* and *emit events* that are dispatched to the parent SynthDevice. Indeed, any time parameters are changed from the user interface, data in the child component are automatically updated and the **onUpdateState event** is fired and sent to the parent. This event is attached to the **updateState function** which is implemented in SynthDevice component and responsible for *state update* based on the parameter name received from the child.
 
 <p align="center">
-    <img width="400" height="auto" alt="Vue App Architecture" src="./assets/SubJuicySynth_AppArchitecture.png">
+    <img width="800" height="auto" alt="Vue App Architecture" src="./assets/SubJuicySynth_AppArchitecture.png">
 </p>
 
 The diagram above shows how the architecture of the application is organized in vue components and parameters are passed from leave components to SynthDevice where the overall synth state is updated. An external Vue component (**vue-three-round-slider** module, imported and used in the app as **RoundSlider** component) was employed to integrate *circular slider* within the graphical user interface for a more pleasant and comfortable user interaction with the software.
