@@ -111,5 +111,5 @@ The diagram above shows how the architecture of the application is organized in 
 Signal processing is implemented through Tone.js audio nodes that are connected together building the signal flow.
 
 <p align="center">
-    <img width="1000" height="auto" alt="Signal Flow Diagram" src="./assets/SignalProcessingFlow.png">
+    <img width="800" height="auto" alt="Signal Flow Diagram" src="./assets/SignalProcessingFlow.png">
 </p>
