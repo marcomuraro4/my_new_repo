@@ -12,8 +12,7 @@ Moreover, [Web MIDI API](https://developer.mozilla.org/en-US/docs/Web/API/Web_MI
 
 SubJuicy synthesizer provides the user with different controls sections. In the following all the data controls are shown and explained.
 
-**Sources Controls**
-    The user can control three different oscillators and a noise source. Available parameters are:
+**Sources Controls** The user can control three different oscillators and a noise source. Available parameters are:
   - **Oscillators Gain**: for individually setting volume of each oscillator node
   - **Oscillators Type**: 4 types of waveshape are available (sine, triangle, square, sawtooth) and selectable through a drop down menu
   - **Noise Gain**: sets the volume of the noise source node
@@ -23,12 +22,11 @@ SubJuicy synthesizer provides the user with different controls sections. In the 
     <img width="400" height="auto" alt="Sources Controls GUI" src="./assets/SourcesControlsGUI.png">
 </p>
 
-**Filters Controls** 
-    Four types of filters can be controlled from the graphical user interface. Each filter is implemented as a Tone.js BiquadFilter node. Available filters are: Low-Pass, High-Pass, Peaking, and Notch filter. Controllable parameters are listed below:
-    * **Frequency**
-    * **Q-Factor**
-    * **Detune**
-    * **Gain**: only for *Peaking Filter*
+**Filters Controls** Four types of filters can be controlled from the graphical user interface. Each filter is implemented as a Tone.js BiquadFilter node. Available filters are: Low-Pass, High-Pass, Peaking, and Notch filter. Controllable parameters are listed below:
+    - **Frequency**
+    - **Q-Factor**
+    - **Detune**
+    - **Gain**: only for *Peaking Filter*
   
 
 - **Effects Controls**
