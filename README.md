@@ -109,7 +109,7 @@ The diagram above shows how the architecture of the application is organized in 
 
 ## Signal Flow
 
-Signal processing is implemented through Tone.js audio nodes that are connected together building the signal flow.
+Signal processing is implemented through Tone.js audio nodes that are connected together to build the signal flow architecture.
 
 <p align="center">
     <img width="800" height="auto" alt="Signal Flow Diagram" src="./assets/SignalProcessingFlow.png">
