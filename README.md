@@ -13,7 +13,7 @@ Moreover, [Web MIDI API](https://developer.mozilla.org/en-US/docs/Web/API/Web_MI
 SubJuicy synthesizer provides the user with different controls sections. In the following all the data controls are shown and explained.
 
 - **Sources Controls**
-  The user can control three different oscillators and a noise source. Available parameters are:
+    The user can control three different oscillators and a noise source. Available parameters are:
   - *Oscillators Gain*: for individually setting volume of each oscillator node
   - *Osillators Type*: 4 types of waveshape are availabel (sine, triangle, square, sawtooth)
   - *Noise Gain*: sets the volume of the noise source node
