@@ -40,8 +40,8 @@ The user can navigate through filters controls by clicking on the red button ind
 Effects controls are shown by clicking on the corresponding button which is located at the top-right of SubJuicy interface. Indeed, within the navigation bar of the synth GUI the user can find two buttons, responsible for Filters and Effects controls rendering. Available effects are listed in the following:
 
 - **Chorus** audio node implements a stereo chorus effect consisting of a left and right delay with an LFO that is applied to the delayTime of each channel.
-  - **Depth**: sets the *depth* of chorus effect. Larger delays result in a more pronounced effect.
-  - **Delay Time**: for setting the delay of the chorus (in miilliseconds).
+  - **Depth**: sets the *depth* of chorus effect.
+  - **Delay Time**: for setting the *time delay* of the chorus (in miilliseconds). Larger delays result in a more pronounced effect.
   - **Frequency**: sets the *frequency* of the LFO modulating the delay time
   - **Feedback**: controls the *amount of feedback* from the output back into the input of the effect node
   - **Wet**: manages *dry/wet balance* at the output of the audio node
