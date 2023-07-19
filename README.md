@@ -19,3 +19,7 @@ The app provides different types of controls enabling the user to find the desir
 The diagram above shows how the architecture of the application is organized in vue components and parameters are passed from leave components to SynthDevice where the overall synth state is updated.
 
 ## Signal Flow
+
+Signal processing is implemented through Tone.js audio nodes that are connected together building the signal flow.
+
+![Signal Flow Diagram](/assets/SignalProcessingFlow.png)
