@@ -55,12 +55,16 @@ Effects controls are shown by clicking on the corresponding button which is loca
   - *Pre-Delay*
   - *Wet*
 
- - **Ping-Pong Delay**
+- **Ping-Pong Delay**
   - *Delay Time*
   - *Feedback*
   - *Wet*
+ 
+<p align="center">
+    <img width="400" height="auto" alt="Chorus Controls" src="./assets/ChorusControlsGUI.png">
+</p>
 
-- **Amplitude Envelope Controls**
+**Amplitude Envelope Controls**
 
 - **LFO Controls**
 
