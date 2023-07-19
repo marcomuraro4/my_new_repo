@@ -37,7 +37,7 @@ Four types of filters can be controlled from the graphical user interface. Each 
 The user can navigate through filters controls by clicking on the red button indicating the type of the filter that is currently displayed within the user interface. Every time the button is clicked controls of the following filters are made visible and its type denomination is shown as well. Filters are rendered according to the order indicated above.
 
 **Effects Controls** </br>
-Effects controls are shown by clicking on the corresponding button which is located at the top-right of SubJuicy interface. Indeed, within the navigation bar of the synth interface the user can find two buttons, responsible for Filters and Effects controls rendering.
+Effects controls are shown by clicking on the corresponding button which is located at the top-right of SubJuicy interface. Indeed, within the navigation bar of the synth GUI the user can find two buttons, responsible for Filters and Effects controls rendering.
 
 - **Amplitude Envelope Controls**
 
