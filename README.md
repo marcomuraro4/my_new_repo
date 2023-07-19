@@ -12,17 +12,17 @@ Moreover, [Web MIDI API](https://developer.mozilla.org/en-US/docs/Web/API/Web_MI
 
 SubJuicy synthesizer provides the user with different controls sections. In the following all the data controls are shown and explained.
 
-### Sources Controls
+- **Sources Controls**
 
-### Filters Controls
+- **Filters Controls**
 
-### Effects Controls
+- **Effects Controls**
 
-### Amplitude Envelope Controls
+- **Amplitude Envelope Controls**
 
-### LFO Controls
+- **LFO Controls**
 
-### Master Controls
+- **Master Controls**
 
 ## App Architecture and State Update
 The app provides different types of controls enabling the user to find the desired parameters configuration and shape the sound as wanted. All the functional blocks integrated in the signal flow of the application were implemented as **Vue components**. The state of the synth is managed and updated within the **SynthDevice** component, which handles *sound generation* and *signal processing* by means of Tone.js library. Each component allows the user to interact with the application and update the parameters related to the corresponding signal processing functional block.  
