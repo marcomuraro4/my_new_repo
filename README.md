@@ -19,7 +19,9 @@ SubJuicy synthesizer provides the user with different controls sections. In the 
   - *Noise Gain*: sets the volume of the noise source node
   - *Noise Type*: 2 types of noise are selectable (white and pink)
 
-![<img src="/assets/SourcesControlsGUI.png" width="100">](/assets/SourcesControlsGUI.png)
+<p align="center">
+    <img width="800" height="auto" alt="Sources Controls GUI" src="./assets/images/SourcesControlsGUI.png">
+</p>
 
 - **Filters Controls**
 
