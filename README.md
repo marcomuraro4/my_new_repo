@@ -79,21 +79,21 @@ Amplitude Envelope is implemented as an ADSR envelope.
 **LFO Controls** </br>
 LFO block is implemented as a Tone.js Tremolo node. The user can control the parameters below:
 
-- **Frequency**
-- **Depth**
+- **Frequency**: sets the *frequency* of the tremolo effect
+- **Depth**: controls the depth of the effect
 
 <p align="center">
-    <img width="400" height="auto" alt="LFO Controls" src="./assets/TremoloControlsGUI.png">
+    <img width="300" height="auto" alt="LFO Controls" src="./assets/TremoloControlsGUI.png">
 </p>
 
 **Master Controls** </br>
 Master section enables the user to set:
 
-- **Master Gain**
-- **Pan**
+- **Master Gain**: sets the master gain of the synth sound that has been shaped
+- **Pan**: pan controls is implemented by means of Tone.js Panner node which is an equal power Left/Right channel
 
 <p align="center">
-    <img width="400" height="auto" alt="Master Controls" src="./assets/MasterControlsGUI.png">
+    <img width="300" height="auto" alt="Master Controls" src="./assets/MasterControlsGUI.png">
 </p>
 
 ## App Architecture and State Update
