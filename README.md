@@ -64,7 +64,17 @@ Effects controls are shown by clicking on the corresponding button which is loca
     <img width="400" height="auto" alt="Chorus Controls" src="./assets/ChorusControlsGUI.png">
 </p>
 
-**Amplitude Envelope Controls**
+**Amplitude Envelope Controls** </br>
+Amplitude Envelope is implemented as an ADSR envelope.
+
+- **Attack**
+- **Decay**
+- **Sustain**
+- **Release**
+
+<p align="center">
+    <img width="400" height="auto" alt="Chorus Controls" src="./assets/AmpEnvControlsGUI.png">
+</p>
 
 - **LFO Controls**
 
