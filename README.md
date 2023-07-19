@@ -13,6 +13,10 @@ Moreover, [Web MIDI API](https://developer.mozilla.org/en-US/docs/Web/API/Web_MI
 SubJuicy synthesizer provides the user with different controls sections. In the following all the data controls are shown and explained.
 
 - **Sources Controls**
+  - *Oscillators Gain*
+  - *Osillators Type*
+  - *Noise Volume*
+  - *Noise Type*
 
 - **Filters Controls**
 
