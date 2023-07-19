@@ -31,7 +31,7 @@ Four types of filters can be controlled from the graphical user interface. Each 
 - **Gain**: available only for *Peaking Filter*
 
 <p align="center">
-    <img width="400" height="auto" alt="Peaking Filter Controls" src="./assets/PeakingFilterControlsGUI.png">
+    <img width="800" height="auto" alt="Peaking Filter Controls" src="./assets/PeakingFilterControlsGUI.png">
 </p>
 
 The user can navigate through filters controls by clicking on the red button indicating the type of the filter that is currently displayed within the user interface. Every time the button is clicked controls of the following filters are made visible and its type denomination is shown as well. Filters are rendered according to the order indicated above.
