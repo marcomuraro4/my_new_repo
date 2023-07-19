@@ -41,31 +41,31 @@ Effects controls are shown by clicking on the corresponding button which is loca
 
 - **Chorus** audio node implements a stereo chorus effect consisting of a left and right delay with an LFO that is applied to the delayTime of each channel.
   - *Depth*: sets the *depth* of chorus effect
-  - *Frequency*: sets the frequency of the LFO modulating the delay time
-  - *Feedback*: controls the amount of feedback from the output back into the input of the effect node
-  - *Wet*: manages dry/wet balance at the output of the audio node
+  - *Frequency*: sets the *frequency* of the LFO modulating the delay time
+  - *Feedback*: controls the *amount of feedback* from the output back into the input of the effect node
+  - *Wet*: manages *dry/wet balance* at the output of the audio node
  
 - **Phaser** node works by changing the phase of different frequency components of an incoming signal.
-  - *Base Frequency*: controls the cut-off frequency of the filter
-  - *Frequency*: sets the frequency of the effect
-  - *Wet*: for setting dry/wet balance at the output of the audio node
+  - *Base Frequency*: controls the *cut-off frequency* of the filter
+  - *Frequency*: sets the *frequency* of the effect
+  - *Wet*: for setting *dry/wet balance* at the output of the audio node
  
 - **Reverb** audio node implements a simple convolution created with decaying noise. Controllable parameters are:
-  - *Decay*: sets reverb duration
-  - *Pre-Delay*: controls the amount of time the reverb is fully ramped in
-  - *Wet*: manages dry/wet balance
+  - *Decay*: sets the *reverb duration*
+  - *Pre-Delay*: controls the *amount of time the reverb is fully ramped in*
+  - *Wet*: manages *dry/wet balance*
 
 - **Ping-Pong Delay** node implements a feedback delay effect here the echo is heard first in one channel and next in the opposite channel
-  - *Delay Time*: controls delay time
-  - *Feedback*: sets feedback of the delay
-  - *Wet*: sets dry/wet balance at the output of the audio node
+  - *Delay Time*: controls *delay time*
+  - *Feedback*: sets *feedback* of the delay
+  - *Wet*: sets *dry/wet balance* at the output of the audio node
  
 <p align="center">
     <img width="400" height="auto" alt="Chorus Controls" src="./assets/ChorusControlsGUI.png">
 </p>
 
 **Amplitude Envelope Controls** </br>
-Amplitude Envelope is implemented as an ADSR envelope.
+Amplitude Envelope is implemented as an *ADSR envelope*.
 
 - **Attack**
 - **Decay**
@@ -80,7 +80,7 @@ Amplitude Envelope is implemented as an ADSR envelope.
 LFO block is implemented as a Tone.js Tremolo node. The user can control the parameters below:
 
 - **Frequency**: sets the *frequency* of the tremolo effect
-- **Depth**: controls the depth of the effect
+- **Depth**: controls the *depth* of the effect
 
 <p align="center">
     <img width="300" height="auto" alt="LFO Controls" src="./assets/TremoloControlsGUI.png">
@@ -89,8 +89,8 @@ LFO block is implemented as a Tone.js Tremolo node. The user can control the par
 **Master Controls** </br>
 Master section enables the user to set:
 
-- **Master Gain**: sets the master gain of the synth sound that has been shaped
-- **Pan**: pan controls is implemented by means of Tone.js Panner node which is an equal power Left/Right channel
+- **Master Gain**: sets the *master gain* of the synth sound that has been shaped
+- **Pan**: pan parameter controls is implemented by means of Tone.js Panner node which is an *equal power Left/Right channel*
 
 <p align="center">
     <img width="300" height="auto" alt="Master Controls" src="./assets/MasterControlsGUI.png">
