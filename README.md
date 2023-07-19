@@ -20,7 +20,7 @@ SubJuicy synthesizer provides the user with different controls sections. In the 
   - *Noise Type*: 2 types of noise are selectable (white and pink)
 
 <p align="center">
-    <img width="800" height="auto" alt="Sources Controls GUI" src="./assets/images/SourcesControlsGUI.png">
+    <img width="800" height="auto" alt="Sources Controls GUI" src="/assets/images/SourcesControlsGUI.png">
 </p>
 
 - **Filters Controls**
