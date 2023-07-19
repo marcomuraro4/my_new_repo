@@ -76,9 +76,17 @@ Amplitude Envelope is implemented as an ADSR envelope.
     <img width="400" height="auto" alt="ADSR Amplitude Envelope Controls" src="./assets/AmpEnvControlsGUI.png">
 </p>
 
-- **LFO Controls**
+**LFO Controls** </br>
+LFO block is implemented as a Tone.js Tremolo node. The user can control the parameters below:
 
-- **Master Controls**
+- **Frequency**
+- **Depth**
+
+**Master Controls** </br>
+Master section enables the user to set:
+
+- **Master Gain**
+- **Pan**
 
 ## App Architecture and State Update
 The app provides different types of controls enabling the user to find the desired parameters configuration and shape the sound as wanted. All the functional blocks integrated in the signal flow of the application were implemented as **Vue components**. The state of the synth is managed and updated within the **SynthDevice** component, which handles *sound generation* and *signal processing* by means of Tone.js library. Each component allows the user to interact with the application and update the parameters related to the corresponding signal processing functional block.  
