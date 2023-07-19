@@ -15,7 +15,7 @@ SubJuicy synthesizer provides the user with different controls sections. In the 
 - **Sources Controls**
     The user can control three different oscillators and a noise source. Available parameters are:
   - *Oscillators Gain*: for individually setting volume of each oscillator node
-  - *Osillators Type*: 4 types of waveshape are availabel (sine, triangle, square, sawtooth)
+  - *Osillators Type*: 4 types of waveshape are available (sine, triangle, square, sawtooth) and selectable through a drop down menu
   - *Noise Gain*: sets the volume of the noise source node
   - *Noise Type*: 2 types of noise are selectable (white and pink)
 
