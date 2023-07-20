@@ -117,5 +117,4 @@ Signal processing is implemented through Tone.js audio nodes that are connected 
     <img width="800" height="auto" alt="Signal Flow Diagram" src="./assets/SignalProcessingFlow.png">
 </p>
 
-**You're now ready to jump to SubJuicy </br>
-&emsp ...and make some wonderful music!**
+**You're now ready to jump to SubJuicy ...and make some wonderful music!**
