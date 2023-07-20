@@ -66,12 +66,12 @@ Effects controls are shown by clicking on the corresponding button which is loca
 </p>
 
 **Amplitude Envelope Controls** </br>
-Amplitude Envelope is implemented as an *ADSR envelope*.
+Amplitude Envelope is implemented as an *ADSR envelope*. AmplitudeEnvelope node of Tone.js basically is a Tone.Envelope object connected to a Gain node. Unlike Tone.Envelope which provides the envelope's value as the output of the node itself, AmplitudeEnvelope accepts an audio signal as the input and applies the ADSR envelope to its amplitude.
 
-- **Attack**
-- **Decay**
-- **Sustain**
-- **Release**
+- **Attack**: when triggerAttack function is invoked, the attack time is the amount of time in seconds it takes for the ADSR envelope to reach its maximum value
+- **Decay**: after the attack stage of the envelope, the value of the amplitude will fall over the decay time duration to its sustain.
+- **Sustain**: the value which the amplitude envelope rests at after triggerAttack function is called and before triggerRelease is invoked
+- **Release**: after triggerRelease function is called, the envelope's value will fall to its minimum value over the release time duration
 
 <p align="center">
     <img width="400" height="auto" alt="ADSR Amplitude Envelope Controls" src="./assets/AmpEnvControlsGUI.png">
